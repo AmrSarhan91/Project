@@ -1,3 +1,13 @@
+p{
+    font-size: 30px;
+    
+}
+#heading{
+    background-color: lightgrey;
+}
 a{
-    color: black; background-color: gray;
+   font-size: 23px; color: gray;
+}
+h1{
+    color: green; text-align: center; font-size: 40px;
 }
