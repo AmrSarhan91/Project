@@ -5,16 +5,20 @@
 </head>
 <body>
 <!--nav-->
-<p id="heading">
-<a href = "index.html" target="_blank">Home</a>&nbsp;
-<a href = "studentlist.html" target="_blank">Student List</a>&nbsp;
-<a href = "newstudent.html" target="_self">New Student</a>
-</p>
+<nav>
+<ul>
+<li><a href = "index.html" target="_blank">Home</a></li>&nbsp;
+<li><a href = "studentlist.html" target="_blank">Student List</a></li>&nbsp;
+<li><a href = "newstudent.html" target="_self">New Student</a></li>
+</ul>
+</nav>
 <!--/nav-->
 <hr>
 <!--section-->
 <h1>New Student</h1>  
 <form action="#" method="POST">
+   <fieldset>
+       <legend>Personal Information</legend>
     <p>
         <label>Full Name:
 <input type="text" name="txtname">
@@ -31,6 +35,9 @@
 <input type="radio" name="Gender" value="Female">Female
         </label>
     </p>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
     <p>
     <label>Email:
 <input type="email" name="txtemail">
@@ -46,6 +53,9 @@
 <textarea rows="10" cols="20" name="txtarea"></textarea>
         </label>
     </p>
+    </fieldset>
+    <fieldset>
+        <legend>University Information</legend>
     <p>
         <label>Choose your Faculty:
 <select>
@@ -56,14 +66,16 @@
 </select>
         </label>
     </p>
+    </fieldset>
 
 
 
 </form>
+<input type="submit" class="button" value="Add" name="Add">
 <!--/section-->
 <hr>
 <!--footer-->
-Copyright&copy; <a href = "http://www.fue.edu.eg">Future University</a> &nbsp;&nbsp; &mdash; &nbsp;&nbsp; <a href = "mailto:abc@gmail.com">Contact Us</a>
+Copyright&copy; <a class="foot" href = "http://www.fue.edu.eg">Future University</a> &nbsp;&nbsp; &mdash; &nbsp;&nbsp; <a class="foot" href = "mailto:abc@gmail.com">Contact Us</a>
 <!--/footer-->
 </body>
 <footer>

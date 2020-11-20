@@ -1,13 +1,46 @@
-p{
-    font-size: 30px;
-    
-}
-#heading{
-    background-color: lightgrey;
-}
+
 a{
    font-size: 23px; color: gray;
 }
 h1{
     color: green; text-align: center; font-size: 40px;
+}
+p{
+
+}
+ul{
+list-style-type: none;
+border: 1px solid white;
+background-color: lightgrey;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+
+}
+li{
+    float: left;
+    padding-inline-end: 30px;
+}
+.button{
+    color: white;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-size: 13px;
+    border: none;
+    
+}
+fieldset{
+    margin: 20px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-align: justify;
+}
+a{
+
+}
+.foot{
+    color: turquoise;
 }
